@@ -23,7 +23,7 @@ export function InputField({ name, control, label, ...inputProps }: InputFieldPr
       fullWidth
       size="small"
       margin="normal"
-      value={value}
+      value={value ?? ''}
       onChange={onChange}
       onBlur={onBlur}
       label={label}
